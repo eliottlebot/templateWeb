@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: eliottlebot/apiTemplate
+  IMAGE_NAME: eliottlebot/templateWeb
 
 jobs:
   build-and-publish:
