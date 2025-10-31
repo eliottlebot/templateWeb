@@ -1,5 +1,5 @@
 const db = require("../models");
-const Pollution = db.pollution;
+const Pollution = db.pollutions;
 
 exports.get = (req, res) => {
   Pollution.findAll()
