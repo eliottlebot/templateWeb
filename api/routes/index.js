@@ -1,4 +1,3 @@
-module.exports = app => {  
-  require("./catalogue.routes")(app);
+module.exports = (app) => {
   require("./utilisateur.routes")(app);
-}
+};
